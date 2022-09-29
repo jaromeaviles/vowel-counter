@@ -28,4 +28,8 @@ main form .button-container .button-add-expense {
   width: 150px;
   margin: 0 auto;
   display: block;
+}
+main form .form-floating {
+  width: 50%;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */
