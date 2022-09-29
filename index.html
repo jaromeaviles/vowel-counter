@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Vowel Counter</title>
+
+    <!-- Imports Font Awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- Imports Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+    />
+
+    <!-- Imports Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- imports styles -->
+    <link rel="stylesheet" href="./styles/style.css" />
+
+  </head>
+  <body>
+    <main class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1>Vowel Counter</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <form class="row g-3">
+            <div class="col-12">
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Type Anything!" id="typeAnything" style="height: 80px"></textarea>
+                    <label for="floatingTextarea2">Type Anything!</label>
+                  </div>
+            <div class="col-12 button-container">
+              <button type="submit" class="btn btn-success button-add-expense">
+                Check
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <!-- Imports Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Imports JS -->
+    <script src="./script.js"></script>
+  </body>
+</html>
